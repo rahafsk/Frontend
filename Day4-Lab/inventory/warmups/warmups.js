@@ -34,3 +34,13 @@ changingValue = "twenty-five";
 console.log(
   `After string reassignment: ${changingValue}; type: ${typeof changingValue}`
 );
+
+// ------------------------------------------------------------
+// 2.2 - Operators & Comparisons
+// ------------------------------------------------------------
+
+console.log("\n2.2 - Operators & Comparisons");
+
+// This loose comparison is required by the exercise.
+// It converts the string "10" into the number 10.
+console.log(`"10" == 10 gives: ${"10" == 10}`);

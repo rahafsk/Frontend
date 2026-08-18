@@ -118,4 +118,7 @@ const renderProductCard = (product) => {
     ? "Low stock"
     : "In stock";
 
+    const categoryIcon =
+    getCategoryIcon(product.category);
+
 }

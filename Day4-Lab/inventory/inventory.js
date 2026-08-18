@@ -121,4 +121,13 @@ const renderProductCard = (product) => {
     const categoryIcon =
     getCategoryIcon(product.category);
 
+     return `
+    <div class="col-12 col-md-6 col-lg-4 mb-3">
+
+      <article
+        class="card product-card
+               border-0 shadow-sm h-100"
+      >
+
+
 }

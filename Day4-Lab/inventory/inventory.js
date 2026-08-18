@@ -236,4 +236,9 @@ function renderInventorySummary(list) {
     document.getElementById(
       "totalInventoryValue"
     );
+
+    const lowStockElement =
+    document.getElementById(
+      "lowStockCount"
+    );
 }

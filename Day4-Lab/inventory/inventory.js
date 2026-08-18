@@ -241,4 +241,7 @@ function renderInventorySummary(list) {
     document.getElementById(
       "lowStockCount"
     );
+
+     totalValueElement.textContent =
+    formatPrice(summary.totalValue);
 }

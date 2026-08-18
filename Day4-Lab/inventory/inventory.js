@@ -157,5 +157,11 @@ const renderProductCard = (product) => {
             ${product.category}
           </p>
 
+          <dl class="row mb-0 mt-auto">
+
+            <dt class="col-6">
+              Unit price
+            </dt>
+
 
 }

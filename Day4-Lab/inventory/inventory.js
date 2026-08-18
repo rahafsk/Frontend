@@ -92,3 +92,11 @@ function getCategoryIcon(category) {
       return "📦";
   }
 }
+
+// ------------------------------------------------------------
+// 3. Format a number as a price
+// ------------------------------------------------------------
+
+function formatPrice(price) {
+  return `$${price.toFixed(2)}`;
+}

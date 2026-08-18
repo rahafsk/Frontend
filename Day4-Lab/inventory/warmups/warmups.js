@@ -97,3 +97,10 @@ switch (true) {
 console.log(`${hardcodedScore} receives letter grade ${letterGrade}.`);
 
 
+// ------------------------------------------------------------
+// 2.4 - Functions, All Four Ways
+// ------------------------------------------------------------
+
+console.log("\n2.4 - Functions, All Four Ways");
+
+

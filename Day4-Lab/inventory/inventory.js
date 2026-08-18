@@ -40,4 +40,11 @@ const products = [
     category: "Bakery"
   },
 
+  {
+    name: "Butter Croissant",
+    price: 1.75,
+    stock: 9,
+    category: "Bakery"
+  },
+
 ]

@@ -109,5 +109,9 @@ function formatPrice(price) {
 
 const renderProductCard = (product) => {
   const isLowStock = product.stock < 10;
-  
+
+   const badgeClass = isLowStock
+    ? "text-bg-danger"
+    : "text-bg-success";
+
 }

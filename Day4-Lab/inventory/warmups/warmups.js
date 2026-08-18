@@ -138,4 +138,15 @@ function greet(name = "Guest") {
 console.log(`Default parameter: ${greet()}`);
 console.log(`Default parameter with a name: ${greet("Rahaf")}`);
 
+// 5. Function with a rest parameter
+function sumAll(...numbers) {
+  let total = 0;
+
+  for (const number of numbers) {
+    total += number;
+  }
+
+  return total;
+}
+
 

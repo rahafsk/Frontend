@@ -198,3 +198,13 @@ function renderProducts(list) {
     .join("");
 
 }
+
+// ------------------------------------------------------------
+// 6. Calculate the inventory summary
+// ------------------------------------------------------------
+
+function calculateInventorySummary(list) {
+  let totalValue = 0;
+  let lowStockCount = 0;
+
+}

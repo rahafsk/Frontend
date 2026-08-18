@@ -136,5 +136,12 @@ const renderProductCard = (product) => {
                    align-items-start gap-3 mb-3"
           >
 
+          <span
+              class="category-icon"
+              aria-hidden="true"
+            >
+              ${categoryIcon}
+            </span>
+
 
 }

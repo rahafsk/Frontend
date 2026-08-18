@@ -267,3 +267,14 @@ function getLowStockProducts(list) {
 
   return lowStockProducts;
 }
+
+// ------------------------------------------------------------
+// 9. Low-stock toggle
+// ------------------------------------------------------------
+
+let showLowStockOnly = false;
+
+const toggleButton =
+  document.getElementById(
+    "toggleLowStockButton"
+  );

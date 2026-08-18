@@ -54,4 +54,11 @@ const products = [
     category: "Supplies"
   },
 
+  {
+    name: "Paper Cups Pack",
+    price: 3.25,
+    stock: 12,
+    category: "Supplies"
+  },
+
 ]

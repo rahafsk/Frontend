@@ -187,5 +187,9 @@ console.log(
     `Regular method: ${learnerProfile.getNameRegular()}`
 );
 
+console.log(
+  `Arrow method: ${learnerProfile.getNameArrow()}`
+);
+
 
 

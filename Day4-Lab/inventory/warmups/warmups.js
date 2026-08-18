@@ -72,3 +72,6 @@ for (const grade of grades) {
     console.log(`${grade}: Fail`);
   }
 }
+
+const hardcodedScore = 85;
+let letterGrade;

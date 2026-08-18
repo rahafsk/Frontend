@@ -61,4 +61,11 @@ const products = [
     category: "Supplies"
   },
 
-]
+  {
+    name: "Fresh Milk Carton",
+    price: 1.20,
+    stock: 8,
+    category: "Dairy"
+  }
+
+];

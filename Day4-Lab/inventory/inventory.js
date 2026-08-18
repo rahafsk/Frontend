@@ -301,3 +301,13 @@ const toggleButton =
 
   }
 );
+
+// ------------------------------------------------------------
+// 10. Initial page load
+// ------------------------------------------------------------
+
+// Show all eight products.
+renderProducts(products);
+
+// Calculate the complete inventory summary.
+renderInventorySummary(products);

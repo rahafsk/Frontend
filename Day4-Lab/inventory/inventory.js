@@ -26,4 +26,11 @@ const products = [
     category: "Coffee"
   },
 
+  {
+    name: "Green Tea Box",
+    price: 4.25,
+    stock: 14,
+    category: "Tea"
+  },
+
 ]

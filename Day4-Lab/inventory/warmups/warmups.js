@@ -27,3 +27,10 @@ changingValue = 25;
 console.log(
   `After number reassignment: ${changingValue}; type: ${typeof changingValue}`
 );
+
+// Second reassignment: the same variable now contains a string.
+changingValue = "twenty-five";
+
+console.log(
+  `After string reassignment: ${changingValue}; type: ${typeof changingValue}`
+);

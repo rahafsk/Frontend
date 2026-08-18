@@ -114,4 +114,8 @@ const renderProductCard = (product) => {
     ? "text-bg-danger"
     : "text-bg-success";
 
+    const stockLabel = isLowStock
+    ? "Low stock"
+    : "In stock";
+
 }

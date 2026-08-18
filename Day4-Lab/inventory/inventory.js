@@ -192,5 +192,9 @@ const renderProductCard = (product) => {
 function renderProducts(list) {
   const productList =
     document.getElementById("productList");
-    
+
+    productList.innerHTML = list
+    .map(renderProductCard)
+    .join("");
+
 }

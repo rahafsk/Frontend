@@ -15,3 +15,8 @@ const learnerName = "Rahaf";
 
 // let is used because this variable will change.
 let changingValue = 0;
+
+console.log(`Name: ${learnerName}`);
+console.log(
+  `Starting value: ${changingValue}; type: ${typeof changingValue}`
+);

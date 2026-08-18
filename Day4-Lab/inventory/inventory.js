@@ -33,4 +33,11 @@ const products = [
     category: "Tea"
   },
 
+  {
+    name: "Chocolate Muffin",
+    price: 2.50,
+    stock: 6,
+    category: "Bakery"
+  },
+
 ]

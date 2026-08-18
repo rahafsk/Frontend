@@ -143,5 +143,11 @@ const renderProductCard = (product) => {
               ${categoryIcon}
             </span>
 
+            <span class="badge ${badgeClass}">
+              ${stockLabel}
+            </span>
+
+          </div>
+
 
 }

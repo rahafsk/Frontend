@@ -55,3 +55,11 @@ const searchText = "";
 if (!searchText) {
   console.log("The search text is empty, so the falsy branch runs.");
 }
+
+// ------------------------------------------------------------
+// 2.3 - Control Flow
+// ------------------------------------------------------------
+
+console.log("\n2.3 - Control Flow");
+
+const grades = [85, 92, 58, 73, 40];

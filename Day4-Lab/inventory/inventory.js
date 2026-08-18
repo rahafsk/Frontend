@@ -210,7 +210,12 @@ function calculateInventorySummary(list) {
   for (const product of list) {
     // Calculate the value of the current product.
     totalValue += product.price * product.stock;
-    
-  }
+
+    // A stock of exactly 10 is not low.
+    // It must be below 10.
+    if (product.stock < 10) {
+      lowStockCount += 1;
+    }
+}
 
 }

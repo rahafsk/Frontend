@@ -19,4 +19,11 @@ const products = [
     category: "Coffee"
   },
 
+  {
+    name: "Espresso Coffee Beans",
+    price: 9.75,
+    stock: 7,
+    category: "Coffee"
+  },
+
 ]

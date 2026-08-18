@@ -126,4 +126,8 @@ console.log(
   `Expression: ${testNumber} is even -> ${isEvenExpression(testNumber)}`
 );
 
+console.log(
+  `Arrow: ${testNumber} is even -> ${isEvenArrow(testNumber)}`
+);
+
 

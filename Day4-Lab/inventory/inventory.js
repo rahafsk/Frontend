@@ -100,3 +100,14 @@ function getCategoryIcon(category) {
 function formatPrice(price) {
   return `$${price.toFixed(2)}`;
 }
+
+// ------------------------------------------------------------
+// 4. Render one product card
+// ------------------------------------------------------------
+
+// This is the arrow function required by the task.
+
+const renderProductCard = (product) => {
+  const isLowStock = product.stock < 10;
+  
+}

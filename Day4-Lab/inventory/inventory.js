@@ -171,6 +171,16 @@ const renderProductCard = (product) => {
               Stock
             </dt>
 
+             <dd class="col-6 text-end mb-0">
+              ${product.stock}
+            </dd>
 
+          </dl>
 
-}
+        </div>
+
+      </article>
+
+    </div>
+  `;
+};

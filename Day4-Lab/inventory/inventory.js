@@ -207,4 +207,10 @@ function calculateInventorySummary(list) {
   let totalValue = 0;
   let lowStockCount = 0;
 
+  for (const product of list) {
+    // Calculate the value of the current product.
+    totalValue += product.price * product.stock;
+    
+  }
+
 }

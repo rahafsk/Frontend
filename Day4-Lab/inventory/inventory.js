@@ -47,4 +47,11 @@ const products = [
     category: "Bakery"
   },
 
+  {
+    name: "Caramel Syrup",
+    price: 5.50,
+    stock: 4,
+    category: "Supplies"
+  },
+
 ]

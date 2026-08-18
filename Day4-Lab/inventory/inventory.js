@@ -248,3 +248,14 @@ function renderInventorySummary(list) {
     lowStockElement.textContent =
     summary.lowStockCount;
 }
+
+// ------------------------------------------------------------
+// 8. Create the low-stock list
+// ------------------------------------------------------------
+
+// This uses a loop instead of filter() because filter()
+// belongs to the next lesson.
+
+function getLowStockProducts(list) {
+  const lowStockProducts = [];
+}

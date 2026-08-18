@@ -44,3 +44,14 @@ console.log("\n2.2 - Operators & Comparisons");
 // This loose comparison is required by the exercise.
 // It converts the string "10" into the number 10.
 console.log(`"10" == 10 gives: ${"10" == 10}`);
+
+// Strict equality checks both the value and its type.
+console.log(`"10" === 10 gives: ${"10" === 10}`);
+
+const searchText = "";
+
+// An empty string is falsy.
+// We do not explicitly compare searchText with anything.
+if (!searchText) {
+  console.log("The search text is empty, so the falsy branch runs.");
+}

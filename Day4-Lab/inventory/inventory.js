@@ -258,4 +258,12 @@ function renderInventorySummary(list) {
 
 function getLowStockProducts(list) {
   const lowStockProducts = [];
+
+  for (const product of list) {
+    if (product.stock < 10) {
+      lowStockProducts.push(product);
+    }
+  }
+
+  return lowStockProducts;
 }

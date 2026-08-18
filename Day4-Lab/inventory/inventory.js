@@ -231,4 +231,9 @@ return {
 function renderInventorySummary(list) {
   const summary =
     calculateInventorySummary(list);
+
+     const totalValueElement =
+    document.getElementById(
+      "totalInventoryValue"
+    );
 }

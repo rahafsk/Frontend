@@ -285,5 +285,12 @@ const toggleButton =
     // Change false to true or true to false.
     showLowStockOnly = !showLowStockOnly;
 
+    const productsToDisplay =
+      showLowStockOnly
+        ? getLowStockProducts(products)
+        : products;
+
+    renderProducts(productsToDisplay);
+
   }
 );

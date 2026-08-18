@@ -20,3 +20,10 @@ console.log(`Name: ${learnerName}`);
 console.log(
   `Starting value: ${changingValue}; type: ${typeof changingValue}`
 );
+
+// First reassignment: the value is still a number.
+changingValue = 25;
+
+console.log(
+  `After number reassignment: ${changingValue}; type: ${typeof changingValue}`
+);

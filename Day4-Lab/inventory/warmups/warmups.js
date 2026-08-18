@@ -75,3 +75,11 @@ for (const grade of grades) {
 
 const hardcodedScore = 85;
 let letterGrade;
+
+// switch(true) selects the first condition that evaluates to true.
+switch (true) {
+  case hardcodedScore >= 90:
+    letterGrade = "A";
+    break;
+
+}

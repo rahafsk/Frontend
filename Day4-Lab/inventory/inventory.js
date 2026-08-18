@@ -184,3 +184,13 @@ const renderProductCard = (product) => {
     </div>
   `;
 };
+
+// ------------------------------------------------------------
+// 5. Render all products
+// ------------------------------------------------------------
+
+function renderProducts(list) {
+  const productList =
+    document.getElementById("productList");
+    
+}

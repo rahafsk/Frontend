@@ -69,3 +69,11 @@ const products = [
   }
 
 ];
+
+// ------------------------------------------------------------
+// 2. Select an icon using switch
+// ------------------------------------------------------------
+
+function getCategoryIcon(category) {
+  switch (category)
+}

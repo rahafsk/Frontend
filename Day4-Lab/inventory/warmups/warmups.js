@@ -179,5 +179,9 @@ function createLearnerProfile() {
   
 }
 
+// call() gives createLearnerProfile a known surrounding this value.
+const learnerProfile =
+  createLearnerProfile.call(surroundingContext);
+
 
 

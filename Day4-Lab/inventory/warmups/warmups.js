@@ -113,4 +113,13 @@ const isEvenExpression = function (number) {
   return number % 2 === 0;
 };
 
+// 3. Arrow function
+const isEvenArrow = (number) => number % 2 === 0;
+
+const testNumber = 8;
+
+console.log(
+  `Declaration: ${testNumber} is even -> ${isEvenDeclaration(testNumber)}`
+);
+
 

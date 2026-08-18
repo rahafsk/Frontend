@@ -90,5 +90,9 @@ switch (true) {
     letterGrade = "C";
     break;
 
+    default:
+    letterGrade = "F";
 }
+
+
 

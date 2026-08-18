@@ -163,5 +163,10 @@ const renderProductCard = (product) => {
               Unit price
             </dt>
 
+                        <dd class="col-6 text-end">
+              ${formatPrice(product.price)}
+            </dd>
+
+
 
 }

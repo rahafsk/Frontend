@@ -217,5 +217,9 @@ function calculateInventorySummary(list) {
       lowStockCount += 1;
     }
 }
+return {
+    totalValue: totalValue,
+    lowStockCount: lowStockCount
+  };
 
 }

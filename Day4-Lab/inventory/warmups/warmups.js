@@ -130,4 +130,12 @@ console.log(
   `Arrow: ${testNumber} is even -> ${isEvenArrow(testNumber)}`
 );
 
+// 4. Function with a default parameter
+function greet(name = "Guest") {
+  return `Hello, ${name}!`;
+}
+
+console.log(`Default parameter: ${greet()}`);
+console.log(`Default parameter with a name: ${greet("Rahaf")}`);
+
 

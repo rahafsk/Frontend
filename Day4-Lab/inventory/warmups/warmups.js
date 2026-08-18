@@ -172,6 +172,9 @@ function createLearnerProfile() {
     getNameRegular: function () {
       return this.name;
     },
+
+    // An arrow function keeps this from its surrounding scope.
+    getNameArrow: () => this.name
   }
   
 }

@@ -153,5 +153,9 @@ const renderProductCard = (product) => {
             ${product.name}
           </h3>
 
+          <p class="text-muted">
+            ${product.category}
+          </p>
+
 
 }

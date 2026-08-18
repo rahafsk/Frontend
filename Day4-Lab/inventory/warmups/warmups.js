@@ -122,4 +122,8 @@ console.log(
   `Declaration: ${testNumber} is even -> ${isEvenDeclaration(testNumber)}`
 );
 
+console.log(
+  `Expression: ${testNumber} is even -> ${isEvenExpression(testNumber)}`
+);
+
 

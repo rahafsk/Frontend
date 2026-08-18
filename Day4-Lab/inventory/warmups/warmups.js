@@ -103,4 +103,9 @@ console.log(`${hardcodedScore} receives letter grade ${letterGrade}.`);
 
 console.log("\n2.4 - Functions, All Four Ways");
 
+// 1. Function declaration
+function isEvenDeclaration(number) {
+  return number % 2 === 0;
+}
+
 

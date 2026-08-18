@@ -94,5 +94,6 @@ switch (true) {
     letterGrade = "F";
 }
 
+console.log(`${hardcodedScore} receives letter grade ${letterGrade}.`);
 
 

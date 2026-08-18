@@ -75,5 +75,20 @@ const products = [
 // ------------------------------------------------------------
 
 function getCategoryIcon(category) {
-  switch (category)
+  switch (category){
+    case "Coffee":
+      return "☕";
+
+    case "Tea":
+      return "🍵";
+
+    case "Bakery":
+      return "🥐";
+
+    case "Dairy":
+      return "🥛";
+
+    default:
+      return "📦";
+  }
 }

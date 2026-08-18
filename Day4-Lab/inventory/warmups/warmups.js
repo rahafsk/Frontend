@@ -86,5 +86,9 @@ switch (true) {
     letterGrade = "B";
     break;
 
+    case hardcodedScore >= 60:
+    letterGrade = "C";
+    break;
+
 }
 

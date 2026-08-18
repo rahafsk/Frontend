@@ -278,3 +278,12 @@ const toggleButton =
   document.getElementById(
     "toggleLowStockButton"
   );
+
+  toggleButton.addEventListener(
+  "click",
+  function () {
+    // Change false to true or true to false.
+    showLowStockOnly = !showLowStockOnly;
+
+  }
+);

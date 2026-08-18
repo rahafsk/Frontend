@@ -292,5 +292,12 @@ const toggleButton =
 
     renderProducts(productsToDisplay);
 
+    // This is a regular function, so this refers
+    // to the button that was clicked.
+    this.textContent =
+      showLowStockOnly
+        ? "Show All Items"
+        : "Show Low Stock Only";
+
   }
 );

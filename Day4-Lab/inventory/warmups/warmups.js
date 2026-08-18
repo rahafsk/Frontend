@@ -108,4 +108,9 @@ function isEvenDeclaration(number) {
   return number % 2 === 0;
 }
 
+// 2. Function expression
+const isEvenExpression = function (number) {
+  return number % 2 === 0;
+};
+
 

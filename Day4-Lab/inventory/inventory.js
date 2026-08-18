@@ -149,5 +149,9 @@ const renderProductCard = (product) => {
 
           </div>
 
+          <h3 class="h5 card-title">
+            ${product.name}
+          </h3>
+
 
 }

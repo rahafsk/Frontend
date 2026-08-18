@@ -63,3 +63,12 @@ if (!searchText) {
 console.log("\n2.3 - Control Flow");
 
 const grades = [85, 92, 58, 73, 40];
+
+// for...of gives us each grade value from the array.
+for (const grade of grades) {
+  if (grade >= 60) {
+    console.log(`${grade}: Pass`);
+  } else {
+    console.log(`${grade}: Fail`);
+  }
+}

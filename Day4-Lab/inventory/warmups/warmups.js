@@ -159,4 +159,22 @@ console.log(
 
 console.log("\n2.5 - The this Keyword");
 
+const surroundingContext = {
+  name: "Surrounding context"
+};
+
+
+function createLearnerProfile() {
+  return {
+    name: "Rahaf",
+
+    // A regular function receives this from the calling object.
+    getNameRegular: function () {
+      return this.name;
+    },
+  }
+  
+}
+
+
 

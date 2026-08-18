@@ -183,5 +183,9 @@ function createLearnerProfile() {
 const learnerProfile =
   createLearnerProfile.call(surroundingContext);
 
+console.log(
+    `Regular method: ${learnerProfile.getNameRegular()}`
+);
+
 
 

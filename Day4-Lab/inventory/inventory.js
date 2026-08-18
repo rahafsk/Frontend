@@ -223,3 +223,12 @@ return {
   };
 
 }
+
+// ------------------------------------------------------------
+// 7. Display the calculated summary
+// ------------------------------------------------------------
+
+function renderInventorySummary(list) {
+  const summary =
+    calculateInventorySummary(list);
+}

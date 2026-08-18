@@ -149,4 +149,8 @@ function sumAll(...numbers) {
   return total;
 }
 
+console.log(
+  `Rest parameter: sumAll(1, 2, 3, 4) -> ${sumAll(1, 2, 3, 4)}`
+);
+
 

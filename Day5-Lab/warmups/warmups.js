@@ -92,3 +92,10 @@ const storeOrderIds = [201, 202, 203];
 const allOrderIds = [...onlineOrderIds, ...storeOrderIds];
 
 console.log("Combined order IDs:", allOrderIds);
+
+const originalOrder = {
+  id: 305,
+  customer: "Omar Ali",
+  total: 89.5,
+  status: "Pending",
+};

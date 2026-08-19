@@ -219,3 +219,12 @@ console.log(
   "Does every order have a positive total?",
   allTotalsArePositive,
 );
+
+// sort(): highest total first
+// Spread creates a copy because sort() mutates arrays.
+const ordersHighestFirst = [...warmupOrders].sort(
+  (firstOrder, secondOrder) =>
+    secondOrder.total - firstOrder.total,
+);
+
+console.log("Orders sorted highest first:", ordersHighestFirst);

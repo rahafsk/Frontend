@@ -122,3 +122,13 @@ console.log(
 ===================================================== */
 
 console.log("========== 2.4 ARRAY METHODS ==========");
+
+const warmupOrders = [
+  {
+    id: 401,
+    customer: "Sara Ahmed",
+    total: 249.99,
+    status: "Shipped",
+  },
+  
+]

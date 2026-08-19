@@ -104,3 +104,10 @@ const cancelledOrder = {
   ...originalOrder,
   status: "Cancelled",
 };
+
+console.log("Original order:", originalOrder);
+console.log("Updated copy:", cancelledOrder);
+
+function collectOrderTotals(...totals) {
+  return totals;
+}

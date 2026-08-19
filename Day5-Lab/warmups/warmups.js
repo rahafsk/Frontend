@@ -85,3 +85,6 @@ console.log(summarizeOrder(order));
 ===================================================== */
 
 console.log("========== 2.3 SPREAD AND REST ==========");
+
+const onlineOrderIds = [101, 102, 103];
+const storeOrderIds = [201, 202, 203];

@@ -202,3 +202,10 @@ const firstOrderOver200 = warmupOrders.find(
 );
 
 console.log("First order over $200:", firstOrderOver200);
+
+// some(): check whether any order is Cancelled
+const hasCancelledOrder = warmupOrders.some(
+  ({ status }) => status === "Cancelled",
+);
+
+console.log("Is any order Cancelled?", hasCancelledOrder);

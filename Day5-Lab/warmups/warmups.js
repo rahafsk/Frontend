@@ -228,3 +228,16 @@ const ordersHighestFirst = [...warmupOrders].sort(
 );
 
 console.log("Orders sorted highest first:", ordersHighestFirst);
+
+// Chained filter() and map()
+const shippedCustomerSummaries = warmupOrders
+  .filter(({ status }) => status === "Shipped")
+  .map(
+    ({ customer, total }) =>
+      `${customer}: $${total.toFixed(2)}`,
+  );
+
+console.log(
+  "Shipped customer summaries:",
+  shippedCustomerSummaries,
+);

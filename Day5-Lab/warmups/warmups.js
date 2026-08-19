@@ -99,3 +99,8 @@ const originalOrder = {
   total: 89.5,
   status: "Pending",
 };
+
+const cancelledOrder = {
+  ...originalOrder,
+  status: "Cancelled",
+};

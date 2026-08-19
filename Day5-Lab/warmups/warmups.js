@@ -188,3 +188,10 @@ const shippedOrders = warmupOrders.filter(
 );
 
 console.log("Shipped orders:", shippedOrders);
+
+// map(): create an array of customer names
+const customerNames = warmupOrders.map(
+  ({ customer }) => customer,
+);
+
+console.log("Customer names:", customerNames);

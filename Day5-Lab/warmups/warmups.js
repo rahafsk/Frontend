@@ -195,3 +195,10 @@ const customerNames = warmupOrders.map(
 );
 
 console.log("Customer names:", customerNames);
+
+// find(): find the first order over $200
+const firstOrderOver200 = warmupOrders.find(
+  ({ total }) => total > 200,
+);
+
+console.log("First order over $200:", firstOrderOver200);

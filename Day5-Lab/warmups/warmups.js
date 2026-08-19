@@ -25,3 +25,6 @@ console.log("After pop:", cities);
 
 cities.shift();
 console.log("After shift:", cities);
+
+cities.unshift("Khasab");
+console.log("After unshift:", cities);

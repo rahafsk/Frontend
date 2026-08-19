@@ -179,3 +179,12 @@ const combinedTotal = warmupOrders.reduce(
   (sum, currentOrder) => sum + currentOrder.total,
   0,
 );
+
+console.log("Combined total:", combinedTotal.toFixed(2));
+
+// filter(): keep Shipped orders
+const shippedOrders = warmupOrders.filter(
+  ({ status }) => status === "Shipped",
+);
+
+console.log("Shipped orders:", shippedOrders);

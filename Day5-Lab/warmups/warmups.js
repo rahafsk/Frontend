@@ -30,3 +30,5 @@ cities.unshift("Khasab");
 console.log("After unshift:", cities);
 
 console.log("Length before duplicate:", cities.length);
+
+cities.push("Sohar");

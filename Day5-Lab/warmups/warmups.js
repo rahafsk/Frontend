@@ -148,5 +148,11 @@ const warmupOrders = [
     total: 45.75,
     status: "Cancelled",
   },
+  {
+    id: 405,
+    customer: "Maya Said",
+    total: 175.25,
+    status: "Pending",
+  },
 
 ]

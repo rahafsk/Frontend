@@ -47,3 +47,16 @@ console.log("for...of loop:");
 for (const city of cities) {
   console.log(city);
 }
+
+/* =====================================================
+   2.2 - DESTRUCTURING
+===================================================== */
+
+console.log("========== 2.2 DESTRUCTURING ==========");
+
+const order = {
+  id: 101,
+  customer: "Sara Ahmed",
+  total: 249.99,
+  status: "Shipped",
+};

@@ -79,3 +79,9 @@ function summarizeOrder({ id, customer, total, status }) {
 }
 
 console.log(summarizeOrder(order));
+
+/* =====================================================
+   2.3 - SPREAD AND REST
+===================================================== */
+
+console.log("========== 2.3 SPREAD AND REST ==========");

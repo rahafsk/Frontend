@@ -16,3 +16,6 @@ let cities = [
 ];
 
 console.log("Original array:", cities);
+
+cities.push("Barka");
+console.log("After push:", cities);

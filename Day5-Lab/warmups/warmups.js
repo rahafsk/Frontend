@@ -88,3 +88,7 @@ console.log("========== 2.3 SPREAD AND REST ==========");
 
 const onlineOrderIds = [101, 102, 103];
 const storeOrderIds = [201, 202, 203];
+
+const allOrderIds = [...onlineOrderIds, ...storeOrderIds];
+
+console.log("Combined order IDs:", allOrderIds);

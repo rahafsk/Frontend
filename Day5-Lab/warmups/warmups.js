@@ -73,3 +73,9 @@ const [firstNumber, secondNumber, ...remainingNumbers] = numbers;
 console.log("First number:", firstNumber);
 console.log("Second number:", secondNumber);
 console.log("Remaining numbers:", remainingNumbers);
+
+function summarizeOrder({ id, customer, total, status }) {
+  return `Order #${id} for ${customer}: $${total.toFixed(2)} (${status})`;
+}
+
+console.log(summarizeOrder(order));

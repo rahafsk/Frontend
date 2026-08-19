@@ -37,3 +37,13 @@ console.log("After adding duplicate:", cities);
 console.log("Length after duplicate:", cities.length);
 
 console.log("Classic for loop:");
+
+for (let index = 0; index < cities.length; index++) {
+  console.log(cities[index]);
+}
+
+console.log("for...of loop:");
+
+for (const city of cities) {
+  console.log(city);
+}

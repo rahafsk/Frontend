@@ -173,3 +173,9 @@ const warmupOrders = [
     status: "Shipped",
   },
 ];
+
+// reduce(): calculate the combined total
+const combinedTotal = warmupOrders.reduce(
+  (sum, currentOrder) => sum + currentOrder.total,
+  0,
+);

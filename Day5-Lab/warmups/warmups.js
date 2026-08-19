@@ -35,3 +35,5 @@ cities.push("Sohar");
 
 console.log("After adding duplicate:", cities);
 console.log("Length after duplicate:", cities.length);
+
+console.log("Classic for loop:");

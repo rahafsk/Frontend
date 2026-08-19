@@ -166,5 +166,10 @@ const warmupOrders = [
     total: 210,
     status: "Cancelled",
   },
-
-]
+  {
+    id: 408,
+    customer: "Fatma Rashid",
+    total: 135.4,
+    status: "Shipped",
+  },
+];

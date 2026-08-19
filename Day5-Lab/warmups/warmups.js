@@ -62,3 +62,6 @@ const order = {
 };
 
 const { customer, total } = order;
+
+console.log("Customer:", customer);
+console.log("Total:", total);

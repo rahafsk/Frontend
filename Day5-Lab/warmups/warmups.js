@@ -111,3 +111,8 @@ console.log("Updated copy:", cancelledOrder);
 function collectOrderTotals(...totals) {
   return totals;
 }
+
+console.log(
+  "Collected totals:",
+  collectOrderTotals(19.99, 45, 120.5, 249.99),
+);

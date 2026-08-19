@@ -22,3 +22,6 @@ console.log("After push:", cities);
 
 cities.pop();
 console.log("After pop:", cities);
+
+cities.shift();
+console.log("After shift:", cities);

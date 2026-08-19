@@ -32,3 +32,6 @@ console.log("After unshift:", cities);
 console.log("Length before duplicate:", cities.length);
 
 cities.push("Sohar");
+
+console.log("After adding duplicate:", cities);
+console.log("Length after duplicate:", cities.length);

@@ -17,34 +17,34 @@ let cities = [
 
 console.log("Original array:", cities);
 
-cities.push("Barka");
+cities.push("Barka"); // push() adds an element to the end of the array.
 console.log("After push:", cities);
 
-cities.pop();
+cities.pop(); // pop() removes the last element from the array and returns it.
 console.log("After pop:", cities);
 
-cities.shift();
+cities.shift(); // shift() removes the first element from the array and returns it.
 console.log("After shift:", cities);
 
-cities.unshift("Khasab");
+cities.unshift("Khasab"); // unshift() adds an element to the beginning of the array.
 console.log("After unshift:", cities);
 
-console.log("Length before duplicate:", cities.length);
+console.log("Length before duplicate:", cities.length); // The length property tells us how many elements are inside the array.
 
 cities.push("Sohar");
 
-console.log("After adding duplicate:", cities);
-console.log("Length after duplicate:", cities.length);
+console.log("After adding duplicate:", cities); // The array now contains a duplicate value.
+console.log("Length after duplicate:", cities.length); // The length property counts all elements, including duplicates.
 
-console.log("Classic for loop:");
+console.log("Classic for loop:"); 
 
-for (let index = 0; index < cities.length; index++) {
-  console.log(cities[index]);
+for (let index = 0; index < cities.length; index++) {  
+  console.log(cities[index]); // Accessing each element using its index.
 }
 
 console.log("for...of loop:");
 
-for (const city of cities) {
+for (const city of cities) {  // for...of loop iterates over the values of the array directly.
   console.log(city);
 }
 
@@ -54,31 +54,31 @@ for (const city of cities) {
 
 console.log("========== 2.2 DESTRUCTURING ==========");
 
-const order = {
+const order = {  // An object representing an order.
   id: 101,
   customer: "Sara Ahmed",
   total: 249.99,
   status: "Shipped",
 };
 
-const { customer, total } = order;
+const { customer, total } = order;// Destructuring assignment extracts values from objects and assigns them to variables.
 
-console.log("Customer:", customer);
-console.log("Total:", total);
+console.log("Customer:", customer); // Accessing the 'customer' property from the destructured object.
+console.log("Total:", total); // Accessing the 'total' property from the destructured object.
 
-const numbers = [10, 20, 30, 40, 50];
+const numbers = [10, 20, 30, 40, 50]; // An array of numbers.
 
-const [firstNumber, secondNumber, ...remainingNumbers] = numbers;
+const [firstNumber, secondNumber, ...remainingNumbers] = numbers; 
 
 console.log("First number:", firstNumber);
 console.log("Second number:", secondNumber);
 console.log("Remaining numbers:", remainingNumbers);
 
-function summarizeOrder({ id, customer, total, status }) {
-  return `Order #${id} for ${customer}: $${total.toFixed(2)} (${status})`;
+function summarizeOrder({ id, customer, total, status }) { // Function that takes an order object and returns a formatted string summarizing the order.
+  return `Order #${id} for ${customer}: $${total.toFixed(2)} (${status})`;  // Formatting the order summary with fixed-point notation for the total.
 }
 
-console.log(summarizeOrder(order));
+console.log(summarizeOrder(order));  // Calling the summarizeOrder function with the order object and logging the result.
 
 /* =====================================================
    2.3 - SPREAD AND REST

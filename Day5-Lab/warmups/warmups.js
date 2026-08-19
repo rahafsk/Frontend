@@ -14,3 +14,5 @@ let cities = [
   "Sur",
   "Ibri",
 ];
+
+console.log("Original array:", cities);

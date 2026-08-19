@@ -19,3 +19,6 @@ console.log("Original array:", cities);
 
 cities.push("Barka");
 console.log("After push:", cities);
+
+cities.pop();
+console.log("After pop:", cities);

@@ -60,3 +60,5 @@ const order = {
   total: 249.99,
   status: "Shipped",
 };
+
+const { customer, total } = order;

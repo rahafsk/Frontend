@@ -209,3 +209,13 @@ const hasCancelledOrder = warmupOrders.some(
 );
 
 console.log("Is any order Cancelled?", hasCancelledOrder);
+
+// every(): check whether all totals are positive
+const allTotalsArePositive = warmupOrders.every(
+  ({ total }) => total > 0,
+);
+
+console.log(
+  "Does every order have a positive total?",
+  allTotalsArePositive,
+);

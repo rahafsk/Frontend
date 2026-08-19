@@ -154,5 +154,11 @@ const warmupOrders = [
     total: 175.25,
     status: "Pending",
   },
+  {
+    id: 406,
+    customer: "Noor Hassan",
+    total: 59.99,
+    status: "Shipped",
+  },
 
 ]

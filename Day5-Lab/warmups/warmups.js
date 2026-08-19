@@ -65,3 +65,7 @@ const { customer, total } = order;
 
 console.log("Customer:", customer);
 console.log("Total:", total);
+
+const numbers = [10, 20, 30, 40, 50];
+
+const [firstNumber, secondNumber, ...remainingNumbers] = numbers;

@@ -395,3 +395,22 @@ const elements = {
 let selectedStatus = "All";
 let customerSearchText = "";
 let discountEnabled = false;
+
+/* =====================================================
+   3. DASHBOARD CALCULATIONS
+===================================================== */
+
+function calculateStatusCounts(currentOrders) {
+  return currentOrders.reduce(
+    (counts, { status }) => ({
+      ...counts,
+
+      [status]: counts[status] + 1,
+    }),
+    {
+      Pending: 0,
+      Shipped: 0,
+      Cancelled: 0,
+    },
+  );
+}

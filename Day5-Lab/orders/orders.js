@@ -481,4 +481,17 @@ function renderSummary(currentOrders) {
     ({ items }) => items.length > 0,
   );
 
+  elements.totalRevenue.textContent =
+    currencyFormatter.format(totalRevenue);
+
+  elements.statusCounts.textContent =
+    `${counts.Pending} · ` +
+    `${counts.Shipped} · ` +
+    `${counts.Cancelled}`;
+
+  elements.highestOrder.textContent =
+    currencyFormatter.format(
+      calculateOrderTotal(highest),
+    );
+
 

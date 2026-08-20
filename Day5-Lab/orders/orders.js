@@ -444,3 +444,20 @@ function getTopThreeOrders(currentOrders) {
     .slice(0, 3);
 }
 
+function getUniqueHighValueCustomers(currentOrders) {
+  const qualifyingNames = currentOrders
+    .filter(
+      (order) => calculateOrderTotal(order) > 150,
+    )
+    .map(({ customer }) => customer);
+
+  /*
+    Set removes duplicate customer names.
+  */
+  return [...new Set(qualifyingNames)].sort(
+    (firstName, secondName) =>
+      firstName.localeCompare(secondName),
+  );
+}
+
+

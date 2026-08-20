@@ -89,9 +89,9 @@ console.log("========== 2.3 SPREAD AND REST ==========");
 const onlineOrderIds = [101, 102, 103];
 const storeOrderIds = [201, 202, 203];
 
-const allOrderIds = [...onlineOrderIds, ...storeOrderIds];
+const allOrderIds = [...onlineOrderIds, ...storeOrderIds]; // Using the spread operator to combine two arrays into one.
 
-console.log("Combined order IDs:", allOrderIds);
+console.log("Combined order IDs:", allOrderIds); // Logging the combined array of order IDs.
 
 const originalOrder = {
   id: 305,
@@ -105,9 +105,10 @@ const cancelledOrder = {
   status: "Cancelled",
 };
 
-console.log("Original order:", originalOrder);
-console.log("Updated copy:", cancelledOrder);
+console.log("Original order:", originalOrder); // Logging the original order object.
+console.log("Updated copy:", cancelledOrder); // Logging the new order object with the updated status, demonstrating that the original object remains unchanged.
 
+// The rest parameter allows the function to accept any number of arguments.
 function collectOrderTotals(...totals) {
   return totals;
 }
@@ -180,28 +181,28 @@ const combinedTotal = warmupOrders.reduce(
   0,
 );
 
-console.log("Combined total:", combinedTotal.toFixed(2));
+console.log("Combined total:", combinedTotal.toFixed(2)); // Logging the combined total of all orders, formatted to two decimal places.
 
 // filter(): keep Shipped orders
 const shippedOrders = warmupOrders.filter(
   ({ status }) => status === "Shipped",
 );
 
-console.log("Shipped orders:", shippedOrders);
+console.log("Shipped orders:", shippedOrders); // Logging the array of orders that have a status of "Shipped".
 
 // map(): create an array of customer names
 const customerNames = warmupOrders.map(
   ({ customer }) => customer,
 );
 
-console.log("Customer names:", customerNames);
+console.log("Customer names:", customerNames); // Logging an array of customer names extracted from the orders.
 
 // find(): find the first order over $200
 const firstOrderOver200 = warmupOrders.find(
   ({ total }) => total > 200,
 );
 
-console.log("First order over $200:", firstOrderOver200);
+console.log("First order over $200:", firstOrderOver200); // Logging the first order that has a total over $200.
 
 // some(): check whether any order is Cancelled
 const hasCancelledOrder = warmupOrders.some(
@@ -211,7 +212,7 @@ const hasCancelledOrder = warmupOrders.some(
 console.log("Is any order Cancelled?", hasCancelledOrder);
 
 // every(): check whether all totals are positive
-const allTotalsArePositive = warmupOrders.every(
+const allTotalsArePositive = warmupOrders.every( 
   ({ total }) => total > 0,
 );
 

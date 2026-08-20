@@ -494,4 +494,11 @@ function renderSummary(currentOrders) {
       calculateOrderTotal(highest),
     );
 
+     elements.highestCustomer.textContent =
+    `${highest.customer} · Order #${highest.id}`;
+
+  elements.allHaveItems.textContent =
+    everyOrderHasItems ? "Yes" : "No";
+}
+
 

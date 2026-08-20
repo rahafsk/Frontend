@@ -574,7 +574,48 @@ function renderOrderCard({
       `,
     )
     .join("");
+
+     return `
+    <article class="order-card">
+      <div class="order-header">
+        <div>
+          <p class="order-number">
+            Order #${id}
+          </p>
+
+          <h3>${customer}</h3>
+        </div>
+
+        <span
+          class="status-badge ${status.toLowerCase()}"
+        >
+          ${status}
+        </span>
+      </div>
+
+      <div class="order-body">
+        <p class="order-date">
+          ${dateFormatter.format(new Date(date))}
+        </p>
+
+        <ul class="item-list">
+          ${itemRows}
+        </ul>
+      </div>
+
+      <div class="order-footer">
+        <span>
+          ${items.length} ${itemWord}
+        </span>
+
+        <span class="order-total">
+          ${currencyFormatter.format(total)}
+        </span>
+      </div>
+    </article>
+  `;
 }
+
 
 
 

@@ -538,6 +538,25 @@ function renderInsights(currentOrders) {
       .join("");
 }
 
+/* =====================================================
+   7. ORDER CARD RENDERING
+===================================================== */
+
+/*
+  The function destructures its order parameter.
+*/
+function renderOrderCard({
+  id,
+  customer,
+  status,
+  date,
+  items,
+}) {
+  const total = calculateOrderTotal({ items });
+
+  
+}
+
 
 
 

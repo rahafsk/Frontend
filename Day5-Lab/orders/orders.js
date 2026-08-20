@@ -512,6 +512,24 @@ function renderInsights(currentOrders) {
   const uniqueCustomers =
     getUniqueHighValueCustomers(currentOrders);
 
+     elements.topOrders.innerHTML = topThree
+    .map(
+      (order, index) => `
+        <div class="top-order">
+          <span>
+            ${index + 1}. ${order.customer}
+          </span>
+
+          <strong>
+            ${currencyFormatter.format(
+              calculateOrderTotal(order),
+            )}
+          </strong>
+        </div>
+      `,
+    )
+    .join("");
+
 
 }
 

@@ -530,7 +530,15 @@ function renderInsights(currentOrders) {
     )
     .join("");
 
-
+    elements.highValueCustomers.innerHTML =
+    uniqueCustomers
+      .map(
+        (customer) => `<li>${customer}</li>`,
+      )
+      .join("");
 }
+
+
+
 
 

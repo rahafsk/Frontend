@@ -739,6 +739,8 @@ elements.discountToggle.addEventListener(
   },
 );
 
+renderDashboard();
+
 
 
 

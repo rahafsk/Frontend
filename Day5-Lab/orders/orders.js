@@ -216,6 +216,24 @@ const orders = [
       },
     ],
   },
+  {
+    id: 1013,
+    customer: "Layla Noor",
+    status: "Shipped",
+    date: "2026-08-13",
+    items: [
+      {
+        product: "E-reader",
+        price: 139.99,
+        quantity: 1,
+      },
+      {
+        product: "E-reader Cover",
+        price: 24.5,
+        quantity: 1,
+      },
+    ],
+  },
 
 
 ]

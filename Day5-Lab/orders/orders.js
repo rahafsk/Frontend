@@ -687,6 +687,13 @@ function renderDashboard() {
     Check that the original array and nested items
     have not changed.
   */
+ if (
+    JSON.stringify(orders) !== originalOrdersSnapshot
+  ) {
+    throw new Error(
+      "The original orders array was mutated.",
+    );
+  }
 
 }
 

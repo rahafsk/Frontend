@@ -653,7 +653,13 @@ function renderOrderList(currentOrders) {
     return;
   }
 
+  elements.ordersContainer.innerHTML =
+    visibleOrders
+      .map(renderOrderCard)
+      .join("");
 }
+
+
 
 
 

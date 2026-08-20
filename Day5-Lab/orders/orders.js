@@ -430,4 +430,17 @@ function findHighestValueOrder(currentOrders) {
     },
   );
 }
+function getTopThreeOrders(currentOrders) {
+  /*
+    sort() mutates arrays, so [...currentOrders]
+    creates a copy first.
+  */
+  return [...currentOrders]
+    .sort(
+      (firstOrder, secondOrder) =>
+        calculateOrderTotal(secondOrder) -
+        calculateOrderTotal(firstOrder),
+    )
+    .slice(0, 3);
+}
 

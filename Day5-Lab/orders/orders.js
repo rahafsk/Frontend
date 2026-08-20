@@ -167,6 +167,19 @@ const orders = [
       },
     ],
   },
+  {
+    id: 1010,
+    customer: "Omar Ali",
+    status: "Shipped",
+    date: "2026-08-10",
+    items: [
+      {
+        product: "Gaming Chair",
+        price: 279.99,
+        quantity: 1,
+      },
+    ],
+  },
 
 
 ]

@@ -95,5 +95,23 @@ const orders = [
       },
     ],
   },
+{
+    id: 1006,
+    customer: "Rahaf Said",
+    status: "Shipped",
+    date: "2026-08-06",
+    items: [
+      {
+        product: "Smart Speaker",
+        price: 84.99,
+        quantity: 2,
+      },
+      {
+        product: "Smart Bulb",
+        price: 16.25,
+        quantity: 3,
+      },
+    ],
+  },
 
 ]

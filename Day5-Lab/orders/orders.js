@@ -77,5 +77,23 @@ const orders = [
       },
     ],
   },
+  {
+    id: 1005,
+    customer: "Maya Said",
+    status: "Pending",
+    date: "2026-08-05",
+    items: [
+      {
+        product: "Tablet",
+        price: 319,
+        quantity: 1,
+      },
+      {
+        product: "Protective Case",
+        price: 28.5,
+        quantity: 1,
+      },
+    ],
+  },
 
 ]

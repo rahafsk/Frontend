@@ -144,6 +144,29 @@ const orders = [
       },
     ],
   },
+  {
+    id: 1009,
+    customer: "Sara Ahmed",
+    status: "Pending",
+    date: "2026-08-09",
+    items: [
+      {
+        product: "Laptop",
+        price: 899,
+        quantity: 1,
+      },
+      {
+        product: "Laptop Sleeve",
+        price: 32.99,
+        quantity: 1,
+      },
+      {
+        product: "Wireless Mouse",
+        price: 24.99,
+        quantity: 1,
+      },
+    ],
+  },
 
 
 ]

@@ -313,3 +313,23 @@ function calculateOrderTotal({ items }) {
     0,
   );
 }
+
+/* =====================================================
+   6. IMMUTABLE DISCOUNT PREVIEW
+===================================================== */
+
+function createDiscountedOrders(sourceOrders) {
+  return sourceOrders.map((order) => ({
+    // Create a new order object
+    ...order,
+
+    // Create a new items array
+    items: order.items.map((item) => ({
+      // Create a new item object
+      ...item,
+
+      // Keep 85%, which means subtracting 15%
+      price: item.price * 0.85,
+    })),
+  }));
+}

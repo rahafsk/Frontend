@@ -730,6 +730,15 @@ elements.customerSearch.addEventListener(
   },
 );
 
+elements.discountToggle.addEventListener(
+  "change",
+  ({ target }) => {
+    discountEnabled = target.checked;
+
+    renderDashboard();
+  },
+);
+
 
 
 

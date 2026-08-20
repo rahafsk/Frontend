@@ -460,4 +460,15 @@ function getUniqueHighValueCustomers(currentOrders) {
   );
 }
 
+/* =====================================================
+   SUMMARY RENDERING
+===================================================== */
+
+function renderSummary(currentOrders) {
+  const totalRevenue = currentOrders.reduce(
+    (sum, order) =>
+      sum + calculateOrderTotal(order),
+    0,
+  );
+
 

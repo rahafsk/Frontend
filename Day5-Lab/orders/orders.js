@@ -271,3 +271,10 @@ const orders = [
     ],
   },
 ];
+/*
+  Save a snapshot of the original data.
+
+  Later, we compare the current original array with this
+  snapshot to make sure the discount did not mutate it.
+*/
+const originalOrdersSnapshot = JSON.stringify(orders);

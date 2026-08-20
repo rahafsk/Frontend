@@ -314,7 +314,7 @@
         border-top: 1px solid #dde1e8;
         background: #fafbfc;
       }
-      
+
       .order-total {
         font-size: 19px;
         font-weight: bold;
@@ -328,4 +328,16 @@
         text-align: center;
         color: #686b79;
         background: white;
+      }
+
+      @media (max-width: 900px) {
+        .summary-grid,
+        .orders-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .filters,
+        .insights {
+          grid-template-columns: 1fr;
+        }
       }

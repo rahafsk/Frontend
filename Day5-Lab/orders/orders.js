@@ -294,3 +294,22 @@ const dateFormatter = new Intl.DateTimeFormat("en-US", {
   year: "numeric",
   timeZone: "UTC",
 });
+
+/* =====================================================
+   2. PER-ORDER TOTAL
+===================================================== */
+
+/*
+  The function destructures items directly from the
+  order object.
+
+  reduce() calculates:
+  price × quantity for every item.
+*/
+function calculateOrderTotal({ items }) {
+  return items.reduce(
+    (sum, { price, quantity }) =>
+      sum + price * quantity,
+    0,
+  );
+}

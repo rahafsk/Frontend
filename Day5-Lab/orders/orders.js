@@ -414,3 +414,10 @@ function calculateStatusCounts(currentOrders) {
     },
   );
 }
+
+function findHighestValueOrder(currentOrders) {
+  return currentOrders.reduce(
+    (highestOrder, currentOrder) => {
+      const highestTotal =
+        calculateOrderTotal(highestOrder);
+

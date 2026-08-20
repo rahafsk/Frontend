@@ -198,6 +198,24 @@ const orders = [
       },
     ],
   },
+  {
+    id: 1012,
+    customer: "Salim Nasser",
+    status: "Cancelled",
+    date: "2026-08-12",
+    items: [
+      {
+        product: "Drone",
+        price: 449,
+        quantity: 1,
+      },
+      {
+        product: "Spare Battery",
+        price: 59.99,
+        quantity: 2,
+      },
+    ],
+  },
 
 
 ]

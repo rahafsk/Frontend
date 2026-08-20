@@ -471,4 +471,14 @@ function renderSummary(currentOrders) {
     0,
   );
 
+  const counts =
+    calculateStatusCounts(currentOrders);
+
+  const highest =
+    findHighestValueOrder(currentOrders);
+
+  const everyOrderHasItems = currentOrders.every(
+    ({ items }) => items.length > 0,
+  );
+
 

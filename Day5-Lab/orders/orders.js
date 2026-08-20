@@ -234,6 +234,40 @@ const orders = [
       },
     ],
   },
-
-
-]
+  {
+    id: 1014,
+    customer: "Maryam Adel",
+    status: "Pending",
+    date: "2026-08-14",
+    items: [
+      {
+        product: "Desk Lamp",
+        price: 34.5,
+        quantity: 2,
+      },
+      {
+        product: "Cable Organizer",
+        price: 9.99,
+        quantity: 3,
+      },
+    ],
+  },
+  {
+    id: 1015,
+    customer: "Khalid Jamal",
+    status: "Shipped",
+    date: "2026-08-15",
+    items: [
+      {
+        product: "Graphics Tablet",
+        price: 199.5,
+        quantity: 1,
+      },
+      {
+        product: "Drawing Glove",
+        price: 14.25,
+        quantity: 1,
+      },
+    ],
+  },
+];

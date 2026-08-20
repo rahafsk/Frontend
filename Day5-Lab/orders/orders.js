@@ -627,6 +627,17 @@ function renderOrderList(currentOrders) {
     Therefore, an order must match both the selected
     status and the customer search.
   */
+ const visibleOrders = currentOrders
+    .filter(
+      ({ status }) =>
+        selectedStatus === "All" ||
+        status === selectedStatus,
+    )
+    .filter(({ customer }) =>
+      customer
+        .toLowerCase()
+        .includes(customerSearchText),
+    );
 
 }
 

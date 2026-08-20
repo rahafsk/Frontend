@@ -554,7 +554,8 @@ function renderOrderCard({
 }) {
   const total = calculateOrderTotal({ items });
 
-  
+  const itemWord =
+    items.length === 1 ? "item" : "items";
 }
 
 

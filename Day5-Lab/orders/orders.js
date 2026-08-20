@@ -719,6 +719,17 @@ elements.statusButtons.forEach((button) => {
   });
 });
 
+elements.customerSearch.addEventListener(
+  "input",
+  ({ target }) => {
+    customerSearchText = target.value
+      .trim()
+      .toLowerCase();
+
+    renderDashboard();
+  },
+);
+
 
 
 

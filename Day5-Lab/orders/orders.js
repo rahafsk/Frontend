@@ -333,3 +333,46 @@ function createDiscountedOrders(sourceOrders) {
     })),
   }));
 }
+
+/* =====================================================
+   PAGE ELEMENTS
+===================================================== */
+
+const elements = {
+  statusButtons: document.querySelectorAll(
+    "[data-status]",
+  ),
+
+  customerSearch: document.querySelector(
+    "#customer-search",
+  ),
+
+  discountToggle: document.querySelector(
+    "#discount-toggle",
+  ),
+
+  previewMessage: document.querySelector(
+    "#preview-message",
+  ),
+
+  totalRevenue: document.querySelector(
+    "#total-revenue",
+  ),
+
+  statusCounts: document.querySelector(
+    "#status-counts",
+  ),
+
+  highestOrder: document.querySelector(
+    "#highest-order",
+  ),
+
+  highestCustomer: document.querySelector(
+    "#highest-customer",
+  ),
+
+  allHaveItems: document.querySelector(
+    "#all-have-items",
+  ),
+
+}

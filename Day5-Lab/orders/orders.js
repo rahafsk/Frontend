@@ -556,6 +556,24 @@ function renderOrderCard({
 
   const itemWord =
     items.length === 1 ? "item" : "items";
+
+    const itemRows = items
+    .map(
+      ({ product, price, quantity }) => `
+        <li>
+          <span>
+            ${product} × ${quantity}
+          </span>
+
+          <span>
+            ${currencyFormatter.format(
+              price * quantity,
+            )}
+          </span>
+        </li>
+      `,
+    )
+    .join("");
 }
 
 

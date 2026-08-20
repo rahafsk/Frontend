@@ -387,3 +387,11 @@ const elements = {
     "#orders-container",
   ),
 };
+
+/* =====================================================
+   APPLICATION STATE
+===================================================== */
+
+let selectedStatus = "All";
+let customerSearchText = "";
+let discountEnabled = false;

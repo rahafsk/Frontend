@@ -674,6 +674,20 @@ function renderDashboard() {
     ? createDiscountedOrders(orders)
     : orders;
 
+    renderSummary(currentOrders);
+  renderInsights(currentOrders);
+  renderOrderList(currentOrders);
+
+  elements.previewMessage.textContent =
+    discountEnabled
+      ? "Preview active: all displayed prices are 15% lower."
+      : "Original prices are currently displayed.";
+
+  /*
+    Check that the original array and nested items
+    have not changed.
+  */
+
 }
 
 

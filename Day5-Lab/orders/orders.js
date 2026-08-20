@@ -421,3 +421,13 @@ function findHighestValueOrder(currentOrders) {
       const highestTotal =
         calculateOrderTotal(highestOrder);
 
+        const currentTotal =
+        calculateOrderTotal(currentOrder);
+
+      return currentTotal > highestTotal
+        ? currentOrder
+        : highestOrder;
+    },
+  );
+}
+

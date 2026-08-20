@@ -64,5 +64,18 @@ const orders = [
       },
     ],
   },
+  {
+    id: 1004,
+    customer: "Ahmed Khan",
+    status: "Cancelled",
+    date: "2026-08-04",
+    items: [
+      {
+        product: "Noise-Cancelling Headphones",
+        price: 189.99,
+        quantity: 1,
+      },
+    ],
+  },
 
 ]

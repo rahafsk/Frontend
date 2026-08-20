@@ -639,6 +639,20 @@ function renderOrderList(currentOrders) {
         .includes(customerSearchText),
     );
 
+    elements.orderCount.textContent =
+    `${visibleOrders.length} of ` +
+    `${currentOrders.length} orders shown`;
+
+  if (visibleOrders.length === 0) {
+    elements.ordersContainer.innerHTML = `
+      <p class="empty-message">
+        No orders match both filters.
+      </p>
+    `;
+
+    return;
+  }
+
 }
 
 

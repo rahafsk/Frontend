@@ -501,4 +501,18 @@ function renderSummary(currentOrders) {
     everyOrderHasItems ? "Yes" : "No";
 }
 
+/* =====================================================
+   4. TOP CUSTOMERS
+===================================================== */
+
+function renderInsights(currentOrders) {
+  const topThree =
+    getTopThreeOrders(currentOrders);
+
+  const uniqueCustomers =
+    getUniqueHighValueCustomers(currentOrders);
+
+
+}
+
 

@@ -616,6 +616,20 @@ function renderOrderCard({
   `;
 }
 
+/* =====================================================
+   5. FILTERING AND SEARCH
+===================================================== */
+
+function renderOrderList(currentOrders) {
+  /*
+    The filters are chained.
+
+    Therefore, an order must match both the selected
+    status and the customer search.
+  */
+
+}
+
 
 
 

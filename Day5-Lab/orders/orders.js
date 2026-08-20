@@ -659,6 +659,23 @@ function renderOrderList(currentOrders) {
       .join("");
 }
 
+/* =====================================================
+   MAIN RENDER FUNCTION
+===================================================== */
+
+function renderDashboard() {
+  /*
+    When the preview is on, this creates a completely
+    new discounted array.
+
+    When it is off, it uses the untouched original.
+  */
+  const currentOrders = discountEnabled
+    ? createDiscountedOrders(orders)
+    : orders;
+
+}
+
 
 
 

@@ -41,5 +41,28 @@ const orders = [
       },
     ],
   },
+  {
+    id: 1003,
+    customer: "Layla Noor",
+    status: "Shipped",
+    date: "2026-08-03",
+    items: [
+      {
+        product: "USB-C Hub",
+        price: 44.95,
+        quantity: 1,
+      },
+      {
+        product: "Laptop Stand",
+        price: 36.75,
+        quantity: 1,
+      },
+      {
+        product: "Webcam",
+        price: 69.99,
+        quantity: 1,
+      },
+    ],
+  },
 
 ]

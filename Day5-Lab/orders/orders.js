@@ -113,5 +113,19 @@ const orders = [
       },
     ],
   },
+  {
+    id: 1007,
+    customer: "Baraah Said",
+    status: "Cancelled",
+    date: "2026-08-07",
+    items: [
+      {
+        product: "Fitness Tracker",
+        price: 129.5,
+        quantity: 1,
+      },
+    ],
+  },
+
 
 ]

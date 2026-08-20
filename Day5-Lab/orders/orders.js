@@ -180,6 +180,24 @@ const orders = [
       },
     ],
   },
+{
+    id: 1011,
+    customer: "Huda Karim",
+    status: "Pending",
+    date: "2026-08-11",
+    items: [
+      {
+        product: "Portable Charger",
+        price: 39.95,
+        quantity: 2,
+      },
+      {
+        product: "Phone Stand",
+        price: 11.5,
+        quantity: 1,
+      },
+    ],
+  },
 
 
 ]

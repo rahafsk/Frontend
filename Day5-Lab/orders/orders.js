@@ -278,3 +278,19 @@ const orders = [
   snapshot to make sure the discount did not mutate it.
 */
 const originalOrdersSnapshot = JSON.stringify(orders);
+
+/* =====================================================
+   FORMATTING
+===================================================== */
+
+const currencyFormatter = new Intl.NumberFormat("en-US", {
+  style: "currency",
+  currency: "USD",
+});
+
+const dateFormatter = new Intl.DateTimeFormat("en-US", {
+  day: "numeric",
+  month: "short",
+  year: "numeric",
+  timeZone: "UTC",
+});

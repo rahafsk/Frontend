@@ -126,6 +126,24 @@ const orders = [
       },
     ],
   },
+  {
+    id: 1008,
+    customer: "Fatma Rashid",
+    status: "Shipped",
+    date: "2026-08-08",
+    items: [
+      {
+        product: "External SSD",
+        price: 119.99,
+        quantity: 1,
+      },
+      {
+        product: "USB-C Cable",
+        price: 14.99,
+        quantity: 2,
+      },
+    ],
+  },
 
 
 ]

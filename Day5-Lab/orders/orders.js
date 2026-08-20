@@ -697,6 +697,25 @@ function renderDashboard() {
 
 }
 
+/* =====================================================
+   EVENT LISTENERS
+===================================================== */
+
+elements.statusButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    selectedStatus = button.dataset.status;
+
+    elements.statusButtons.forEach(
+      (statusButton) => {
+        statusButton.classList.toggle(
+          "active",
+          statusButton.dataset.status ===
+            selectedStatus,
+        );
+      },
+    );
+
+
 
 
 

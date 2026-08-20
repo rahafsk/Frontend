@@ -715,6 +715,10 @@ elements.statusButtons.forEach((button) => {
       },
     );
 
+    renderDashboard();
+  });
+});
+
 
 
 

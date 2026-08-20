@@ -375,4 +375,15 @@ const elements = {
     "#all-have-items",
   ),
 
-}
+  topOrders: document.querySelector("#top-orders"),
+
+  highValueCustomers: document.querySelector(
+    "#high-value-customers",
+  ),
+
+  orderCount: document.querySelector("#order-count"),
+
+  ordersContainer: document.querySelector(
+    "#orders-container",
+  ),
+};
